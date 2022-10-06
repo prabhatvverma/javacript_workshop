@@ -134,7 +134,7 @@ let Person2 = {
         console.log(Person2.name);
         console.log(Person2["address"]);
     }
-};
+}; 
 
 let Person3 = {};
 Person3.name = "sidharth";
