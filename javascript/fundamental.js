@@ -133,3 +133,13 @@ if (somevalue) {
 }
 
 console.log("always do this");
+
+//function defnition
+function dosomething() {
+console.log("i'm good");
+console.log("i'm goin to some where");
+console.log("i have something");
+}
+//function excution 
+dosomething();
+dosomething();
