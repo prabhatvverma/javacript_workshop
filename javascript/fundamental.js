@@ -65,26 +65,71 @@
 
 
 
-"jhunjhunwala"
+
+// let mangoes = 30;
+
+// console.log(mangoes);
+
+// mangoes = mangoes + 10;
+// console.log(mangoes);
+
+// let tv =2;
+
+// console.log(tv);
+
+// let name = "sunil";
+// console.log(name);
+
+// let address=("lucknow")
+
+// newaddress=address/name;
+
+// console.log(newaddress);
 
 
+//name : sunil address : lakhimpur age: 29 
+//name : ajay address : lucknow age: 74
+//name : prashant address : delhi age: 50
+let person1 = {
+    name: "sunil",
+    address: "lakhimpur",
+    age: 29
+};
 
-let mangoes = 30;
+let person2 = {
+    name: "ajay",
+    address: "lucknow",
+    age: 74
+};
 
-console.log(mangoes);
+let person3 = {
+    name: "prashant",
+    address: "delhi",
+    age: "50"
+};
 
-mangoes = mangoes + 10;
-console.log(mangoes);
+let bhaisiya = {
+    name: "anjala deva",
+    address: "pta nai kha rahti hai",
+    age: 100000000000
 
-let tv =2;
+}
 
-console.log(tv);
+console.log(bhaisiya);
 
-let name = "sunil";
-console.log(name);
 
-let address=("lucknow")
+//arrey representaion of values
 
-newaddress=address/name;
+let shopingItems = ["mobile", "tv", "alu", "pyaj", "dhaniya", "mircha"];
 
-console.log(newaddress);
+console.log(shopingItems);
+
+
+somevalue = "do this";
+if (somevalue) {
+    console.log("do this");
+} else {
+    console.log("do that");
+}
+
+console.log("always do this");
