@@ -41,7 +41,7 @@ let printDetailsWithArg = function (personObj) {
     console.log(personObj.age);
 };
 
-printDetailsWithArg({ name: "sard", address: "lakhimpur", age: 29 });
+printDetailsWithArg({ name: "sarad", address: "lakhimpur", age: 29 });
 
 let printDetailsWithThis = function () {
     console.log(">>>>>>>> Printing Details with This <<<<<<<<<<");
