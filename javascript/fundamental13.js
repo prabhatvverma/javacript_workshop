@@ -54,7 +54,7 @@ console.log(newStudentsGt55);
 // let newArrayWith2MoreMarks = studentsMarksgt55.map(add2);
 // console.log(newArrayWith2MoreMarks);
 
-// adding 2 extra no. that have more than 55 no.
+// adding 2 extra no. that have more than 55 no. 
 let resultaintStudents = students.filter(function (student) {
     return student.marks > 55;
 })
@@ -64,3 +64,24 @@ let resultaintStudents = students.filter(function (student) {
     });
 
 console.log(resultaintStudents);
+
+console.log(students);
+
+let sum = students.reduce((accum, curr) => {
+    console.log(curr);
+    return accum + curr.marks;
+}, 0)
+// let sum = students.reduce(sum1)
+// function sum1(accum, curr) {
+//     console.log('here');
+//     console.log(accum);
+//     return accum.marks + curr.marks;
+// }
+console.log(sum);
+let newArray = [];
+newArray.push(20, 22, 43, 56, 90);
+console.log(newArray);
+
+//(reduce method in array( reduce will use whene we want single return value))
+
+// let sum = newArray = newArray.reduce(())
