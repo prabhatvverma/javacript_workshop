@@ -30,8 +30,11 @@ function doSomething() {
     let container = document.querySelector(".container");
     container.appendChild(pobj);
 }
+//                                        btn id
+// let btnobj = document.querySelector("#clickMe");
+// console.dir(btnobj);
 
-let btnobj = document.querySelector("#clickMe");
-console.dir(btnobj);
 
-btnobj.addEventListener("click", doSomething);
+//btn id                  event    action
+clickMe.addEventListener("click", doSomething);
+// console.log(btnobj);

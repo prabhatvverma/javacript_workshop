@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+.container {
+    padding: 16px;
+    border: 2px red dashed;
+    width: 80%;
+    margin: 32px auto;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input[type="text"] {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    background-color: blue;
+}
+
+.btn {
+    display: flex;
+    cursor: pointer;
+    background-color: white;
+    padding: 8px;
+    transition: all 300ms ease-in;
+    margin-top: 16px;
+}
