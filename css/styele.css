@@ -1,8 +1,9 @@
-body{
+body {
     position: relative;
     margin: 0;
     padding: 0;
 }
+
 h1 {
     text-align: center;
     background-color: green;
@@ -13,7 +14,7 @@ h2 {
     text-align: center;
 }
 
-.container{
+.container {
     border: 3px solid blue;
     height: auto;
     width: 70%;
@@ -24,11 +25,45 @@ h2 {
 
 }
 
-.btn{
+.btn {
     position: relative;
     height: 20%;
     width: 20%;
     left: 40%;
     top: 5%;
 
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    /* padding: 16px; */
+}
+
+ul li {
+    line-height: 36px;
+    /* background-color: blue; */
+    padding: 8px;
+}
+
+ul li:nth-child(odd) {
+    background-color: #161616;
+    color: yellow;
+}
+
+ul li:nth-child(even) {
+    background-color: yellow;
+    color: #161616;
+}
+
+ul li:hover {
+    background-color: yellowgreen;
+    /* cursor: pointer; */
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
 }

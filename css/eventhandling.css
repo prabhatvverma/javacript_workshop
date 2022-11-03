@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(22, 68, 11);
+    padding: 14px;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    background-color: rgb(250, 166, 9);
+    padding: 10px;
+    margin: 0;
+}
+.center{
+    position: relative;
+}
+
+.btn{
+    margin-top: 2.5%;
+    margin-left: 50%;
+    cursor: pointer;
+    padding: 5px;
+    width: 85px;
+    background-color: #fff;
+}
+
+.btn:hover{
+    background-color: rgb(181, 247, 187);
+    /* text-decoration-color: #fff; */
+    padding: 7px;
+}
