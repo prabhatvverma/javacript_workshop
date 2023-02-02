@@ -50,6 +50,7 @@
 // // console.log(register[1]);
 // // console.log(register[2]);
 // // console.log(register[3]);
+// // console.log(registr.leght);
 // // console.log(Person1);
 
 
